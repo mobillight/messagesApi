@@ -1,0 +1,1 @@
+web: sh -c 'cd ./sevenpro/ && python manage.py migrate && gunicorn sevenpro.wsgi --log-file -'
